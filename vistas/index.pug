@@ -1,0 +1,20 @@
+html 
+    head 
+        title Registrar planta
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        link(rel="stylesheet", href="styles.css")
+    body 
+        .container 
+            .registrarPlanta 
+                input(type="text" placeholder="nombre de tu planta" id="nom_planta")
+                input(type="text" placeholder="nombre cientifico de tu planta" id="nom_cien_planta")      
+                input(type="text" placeholder="cuidados de tu planta" id="cuida_planta")
+                button(id="reg_planta") Registra tu planta
+            .plantas 
+                each planta in plantas
+                    .planta 
+                        p= `nombre: ${planta.nombrePlanta}`
+                        p= `cuidados: ${planta.cuidadosPlanta}`
+                        p= `nombre cientifico: ${planta.nombreCienPlanta}`
+                        br
+    script(src="funciones.js") 

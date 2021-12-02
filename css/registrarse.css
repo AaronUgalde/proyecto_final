@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}

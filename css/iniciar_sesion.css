@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: green;
+    margin: 10rem;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
